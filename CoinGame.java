@@ -18,5 +18,6 @@ public class CoinGame {
             }
         }
         System.out.print("heads: " + heads + ", Tails: " + tails);
+
     }
 }
