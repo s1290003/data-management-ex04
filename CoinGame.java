@@ -17,7 +17,12 @@ public class CoinGame {
                 tails++;
             }
         }
-        System.out.print("heads: " + heads + ", Tails: " + tails);
+        System.out.println("heads: " + heads + ", Tails: " + tails);
 
+        if (heads > tails) {
+            System.out.println("You won!");
+        } else {
+            System.out.println("You lose!");
+        }
     }
 }
